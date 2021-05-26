@@ -1,0 +1,458 @@
+html #cabecalho {
+    background: #111;
+}
+html .barra-inicial {
+    background: #111;
+    border-color: rgba(255, 255, 255, 0.09);
+}
+html #cabecalho .barra-inicial a,
+html #cabecalho .barra-inicial span,
+html #cabecalho .lista-redes i {
+    color: #fff;
+}
+html .barra-inicial .canais-contato i {
+    color: #74b914;
+}
+html .barra-inicial .rastreio-rapido i {
+    border-color: #74b914;
+}
+html .barra-inicial .rastreio-rapido i::before {
+    background: #74b914;
+}
+html .listadedesejos-topo svg,
+html .conta-topo svg {
+    fill: #74b914;
+}
+html .conta-topo {
+    color: #fff;
+}
+html .carrinho .qtd-carrinho {
+    background: #74b914;
+    color: #fff;
+}
+html .busca input {
+    background: #fff;
+    color: #555;
+}
+html .busca input::-webkit-input-placeholder {
+    color: #555;
+}
+html .busca input:-moz-placeholder {
+    color: #555;
+}
+html .busca input::-moz-placeholder {
+    color: #555;
+}
+html .busca input:-ms-input-placeholder {
+    color: #555;
+}
+html .botao-busca svg {
+    fill: #fff;
+}
+html .atalhos-mobile {
+    background: #090909;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+html .atalhos-mobile svg {
+    fill: #fff;
+}
+@media (max-width: 991px) {
+    html #cabecalho .atalho-menu .icon {
+        color: #fff;
+    }
+    html .atalho-menu .icon > .line {
+        background: #fff;
+    }
+    html #cabecalho .menu .block-title {
+        background: #111;
+        color: #fff;
+    }
+    html #cabecalho .menu .nivel-um {
+        background: #fff;
+    }
+    html #cabecalho .menu .titulo {
+        color: #111;
+    }
+    html #cabecalho .menu .nivel-dois a {
+        color: #111;
+    }
+    html #cabecalho .menu .nivel-tres a {
+        color: #555;
+    }
+}
+@media (min-width: 768px) {
+    html #cabecalho .atalho-menu .icon {
+        color: #fff;
+    }
+    html .atalho-menu .icon > .line {
+        background: #74b914;
+    }
+}
+html .atalhos-mobile .icon-shopping-cart .itens {
+    background: #74b914;
+    color: #fff;
+}
+@media (min-width: 992px) {
+    html #cabecalho .menu {
+        background: #fff;
+    }
+    html #cabecalho .menu .nivel-um > li > a > .titulo,
+    html #cabecalho .menu i {
+        color: #111;
+        transition: color .3s;
+    }
+    html #cabecalho .menu .nivel-um > li:hover > a > .titulo,
+    html #cabecalho .menu li:hover i {
+        color: #74b914;
+    }
+    html #cabecalho .menu .nivel-um > li > a .titulo:after {
+        background: #74b914;
+    }
+    html #cabecalho .menu .nivel-dois {
+        background: #fff;
+        border-color: #f0f0f0;
+    }
+    html #cabecalho .menu ul ul li a {
+        color: #111;
+    }
+    html #cabecalho .menu .nivel-tres a {
+        color: #555;
+    }
+}
+html #barraNewsletter,
+html #barraNewsletter .show-hide,
+html #barraNewsletter .componente,
+html #barraNewsletter.posicao-rodape .conteiner {
+    background: #74b914;
+}
+html #barraNewsletter .componente .texto-newsletter,
+html #barraNewsletter .componente .newsletter-confirmacao {
+    color: #fff;
+}
+html #barraNewsletter .texto-newsletter i {
+    color: #fff;
+}
+html #barraNewsletter .componente input[type="text"] {
+    background: #fff;
+    border-color: rgba(0, 0, 0, 0);
+    color: #555;
+}
+html #barraNewsletter .error input[type="text"] {
+    border-color: red;
+}
+html #barraNewsletter .componente input[type="text"]::-webkit-input-placeholder {
+    color: #555;
+}
+html #barraNewsletter .componente input[type="text"]:-moz-placeholder {
+    color: #555;
+}
+html #barraNewsletter .componente input[type="text"]::-moz-placeholder {
+    color: #555;
+}
+html #barraNewsletter .componente input[type="text"]:-ms-input-placeholder {
+    color: #555;
+}
+html #barraNewsletter .componente .botao {
+    background: #111;
+    box-shadow: inset 0 0 0 2px #111;
+    color: #fff;
+    transition: box-shadow .3s, background .3s, color .3s;
+}
+html #barraNewsletter .componente .botao:hover {
+    background: #111;
+    box-shadow: inset 0 0 0 2px #111;
+    color: #fff;
+}
+html #rodape .institucional {
+    background: #111;
+}
+html #rodape .institucional .titulo {
+    color: #fff;
+}
+html #rodape .titulo::after {
+    background: #74b914;
+}
+html #rodape .institucional a,
+html #rodape .institucional p,
+html #rodape .institucional span,
+html #rodape .institucional i {
+    color: #8a8a8a;
+}
+html #rodape .institucional li a:hover,
+html #rodape .lista-redes i:hover {
+    color: #fff;
+}
+html #rodape > div:last-child {
+    background: #fff!important;
+    border-top: 1px solid rgba(0, 0, 0, 0)!important;
+    color: #555;
+    -webkit-filter: none;
+    filter: none;
+}
+html .botao.principal,
+html #rastreio-correios input[type="submit"],
+html #fav-msg button,
+html .produto #formCalcularCep .input-append .btn,
+html .produto-compartilhar .lista-favoritos,
+html .produto-compartilhar .lista-favoritos i {
+    background: #111;
+    color: #fff;
+    transition: background .3s, color .3s;
+}
+html .botao.principal:hover,
+html #rastreio-correios input[type="submit"]:hover,
+html #fav-msg button:hover,
+html .produto #formCalcularCep .input-append .btn:hover,
+html .produto-compartilhar .lista-favoritos:hover,
+html .produto-compartilhar .lista-favoritos:hover i,
+html .conta-topo li:last-child a,
+html .conta-topo li:last-child a:hover {
+    background: #74b914;
+    color: #fff;
+}
+html .botao:not(.principal):not(.botao-busca) {
+    background: #fff;
+    box-shadow: inset 0 0 0 2px #111;
+    color: #111;
+    transition: background .3s, box-shadow .3s, color .3s;
+}
+html .botao:not(.principal):not(.botao-busca):hover {
+    background: #fff;
+    box-shadow: inset 0 0 0 2px #74b914;
+    color: #111;
+}
+html .cadastro-logar .caixa-sombreada .botao {
+    background: #fff;
+    border-color: #111;
+    color: #111;
+    transition: background .3s, border-color .3s, color .3s;
+}
+html .cadastro-logar .caixa-sombreada .botao:hover {
+    background: #fff;
+    border-color: #74b914;
+    color: #111;
+}
+html .coluna .newsletter-cadastro .botao {
+    background: #111;
+    box-shadow: inset 0 0 0 2px #111;
+    color: #fff;
+    transition: background .3s, box-shadow .3s, color .3s;
+}
+html .coluna .newsletter-cadastro .botao:hover {
+    background: #74b914;
+    box-shadow: inset 0 0 0 2px #74b914;
+    color: #fff;
+}
+html #scrolltop-ldt {
+    background: #74b914;
+}
+html #scrolltop-ldt:hover {
+    background: #111;
+}
+html #scrolltop-ldt a {
+    color: #fff;
+    transition: color .3s;
+}
+html #scrolltop-ldt:hover a {
+    color: #fff;
+}
+html .fancybox-close,
+html .fancybox-close:hover,
+html .fancybox-close:focus {
+    background: #74b914;
+}
+html .fancybox-close::before,
+html .fancybox-close::after {
+    background: #fff;
+}
+html .listagem-item .acoes-produto .botao {
+    background: #74b914;
+    color: #fff;
+    transition: background .3s, color .3s;
+}
+html .listagem-item .acoes-produto .botao:hover {
+    background: #6aa913;
+    color: #fff;
+}
+html #corpo .bandeiras-produto .bandeira-promocao {
+    background-color: #e27c7c;
+    color: #fff;
+}
+html #corpo .bandeiras-produto .bandeira-carrinho {
+    background: #555;
+    color: #fff;
+}
+html .listagem-item .adc-fav svg {
+    fill: #ccc;
+}
+html .listagem-item .preco-a-partir .titulo,
+html #listagemProdutos .preco-produto.destaque-preco .preco-promocional,
+html #listagemProdutos .preco-produto.destaque-parcela .titulo,
+html .aproveite-tambem .preco-produto.destaque-preco .preco-promocional,
+html .aproveite-tambem .preco-produto.destaque-parcela .titulo,
+html .aproveite-tambem .desconto-a-vista .titulo,
+html #listagemProdutos .desconto-a-vista .titulo {
+    color: #74b914;
+}
+html .produto .comprar .botao-comprar {
+    background: #74b914;
+    color: #fff;
+    transition: background .3s, color .3s;
+}
+html .produto .comprar .botao-comprar:not(.desativo):hover {
+    background: #6aa913;
+    color: #fff;
+}
+html .produto-thumbs #carouselImagem .miniaturas li.active a {
+    border-color: #111;
+}
+html .produto .acoes-produto .preco-produto.destaque-parcela .titulo,
+html .produto .principal .preco-produto.destaque-preco .preco-a-partir .titulo,
+html .produto .acoes-produto .preco-produto .preco-a-partir .preco-venda,
+html .produto .acoes-produto .preco-produto .preco-promocional,
+html .produto .acoes-produto .destaque-avista .titulo {
+    color: #74b914;
+}
+html .pagina-carrinho .botao.principal.grande,
+html .carrinho .botao.principal,
+html .pagina-carrinho .botao.principal.grande {
+    background: #74b914;
+    color: #fff;
+    transition: background .3s, color .3s;
+}
+html .pagina-carrinho .botao.principal.grande:hover,
+html .carrinho .botao.principal:hover,
+html .pagina-carrinho .botao.principal.grande:hover {
+    background: #6aa913;
+    color: #fff;
+}
+html .modal-modalNewsletter .fancybox-skin,
+html #modalNewsletter .componente {
+    background: #fff;
+}
+html #modalNewsletter .componente .titulo,
+html #modalNewsletter .newsletter .newsletter-confirmacao span,
+html #modalNewsletter .componente .texto-newsletter {
+    color: #111;
+}
+html #modalNewsletter .newsletter-cadastro input {
+    background: #f0f0f0;
+    color: #555;
+}
+html #modalNewsletter .newsletter-cadastro input::-webkit-input-placeholder {
+    color: #555;
+}
+html #modalNewsletter .newsletter-cadastro input:-moz-placeholder {
+    color: #555;
+}
+html #modalNewsletter .newsletter-cadastro input::-moz-placeholder {
+    color: #555;
+}
+html #modalNewsletter .newsletter-cadastro input:-ms-input-placeholder {
+    color: #555;
+}
+html #modalNewsletter .newsletter .botao {
+    background: #111;
+    box-shadow: inset 0 0 0 2px #111;
+    color: #fff;
+    transition: background .3s, box-shadow .3s, color .3s;
+}
+html #modalNewsletter .newsletter .botao:hover {
+    background: #74b914;
+    box-shadow: inset 0 0 0 2px #74b914;
+    color: #fff;
+}
+html .modal-modalNewsletter .fancybox-close,
+html .modal-modalNewsletter .fancybox-close:hover,
+html .modal-modalNewsletter .fancybox-close:focus {
+    background: #74b914;
+}
+html .fancybox-close::before,
+html .fancybox-close::after {
+    background: #fff;
+}
+html .produto .comprar .botao-comprar {
+    background: #74b914;
+    color: #fff;
+    transition: background .3s, color .3s;
+}
+html #listagemProdutos .titulo-categoria::after,
+html #video-home .titulo::after,
+html .aproveite-tambem > .titulo::after {
+    background: #74b914;
+}
+html .banner .flex-control-paging li a:hover,
+html .banner .flex-control-paging li a.flex-active {
+    background: #74b914;
+}
+html .banner .flex-control-paging li a,
+html .banner .flex-control-paging li a.flex-active {
+    border-color: #74b914;
+}
+html .banner .flexslider .flex-direction-nav a {
+    background: rgba(255, 255, 255, 0.6);
+    color: #555;
+}
+html *::selection {
+    background: #74b914;
+    color: #fff;
+}
+html::-webkit-scrollbar-thumb,
+html #cabecalho .menu .nivel-tres::-webkit-scrollbar-thumb,
+html .carrinho-interno ul::-webkit-scrollbar-thumb {
+    background: #74b914!important;
+}
+html::-webkit-scrollbar-track,
+html .carrinho-interno ul::-webkit-scrollbar-track,
+html #cabecalho .menu .nivel-tres::-webkit-scrollbar-track {
+    background: #f0f0f0!important;
+}
+html .carrinho-checkout .atendimento,
+html .carrinho-checkout .atendimento a,
+html .carrinho-checkout .atendimento span,
+html .carrinho-checkout .atendimento li strong {
+    color: #fff;
+    border-color: #fff;
+}
+html #video-home .video-play i,
+html #video-home .video-play svg {
+    background: #74b914;
+    fill: #fff;
+}
+html #rodape > div:last-child img,
+html #rodape .author-copyright div {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+html .produto-compartilhar .lista-favoritos:hover,
+html .produto-compartilhar .lista-favoritos:hover i {
+    opacity: 1;
+}
+html textarea:focus,
+html input[type="text"]:focus,
+html input[type="password"]:focus,
+html input[type="datetime"]:focus,
+html input[type="datetime-local"]:focus,
+html input[type="date"]:focus,
+html input[type="month"]:focus,
+html input[type="time"]:focus,
+html input[type="week"]:focus,
+html input[type="number"]:focus,
+html input[type="email"]:focus,
+html input[type="url"]:focus,
+html input[type="search"]:focus,
+html input[type="tel"]:focus,
+html input[type="color"]:focus,
+html .uneditable-input:focus {
+    border-color: #74b914;
+}
+html .busca .botao-busca,
+html .busca .botao-busca:hover {
+    background: #74b914;
+}
+html .busca .botao-busca:hover {
+    background: #74b914;
+}
+html .carrinho svg {
+    fill: #fff;
+}
